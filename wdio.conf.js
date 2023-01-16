@@ -35,22 +35,7 @@ exports.config = {
     services: [
         [
             ZebrunnerService
-        ],
-        // ['selenium-standalone', {
-        //     logPath: 'logs',
-        //     installArgs: {
-        //         drivers: {
-        //             chrome: { version: '79.0.3945.88' },
-        //             firefox: { version: '0.26.0' }
-        //         }
-        //     },
-        //     args: {
-        //         drivers: {
-        //             chrome: { version: '79.0.3945.88' },
-        //             firefox: { version: '0.26.0' }
-        //         }
-        //     },
-        // }]
+        ]
     ],
     framework: 'mocha',
     reporters: [
@@ -58,18 +43,7 @@ exports.config = {
             ZebrunnerReporter, 
             {}
         ],
-      'spec',
-      ['allure', {
-        outputDir: 'report/allure-results',
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: false,
-      }],
-      ['junit', {
-        outputDir: 'report/junit',
-        outputFileFormat: function(options) { // optional
-          return `test-${options.cid}-results.xml`
-        }
-      }]
+        'spec'
     ],
     mochaOpts: {
         ui: 'bdd',
