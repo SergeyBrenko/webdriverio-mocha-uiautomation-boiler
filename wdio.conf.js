@@ -17,7 +17,7 @@ exports.config = {
         './test/**/*.spec.js'
     ],
     exclude: [
-        '.test/**/*.page.js'
+        './test/**/*.page.js'
     ],
     maxInstances: 10,
     capabilities: [{
