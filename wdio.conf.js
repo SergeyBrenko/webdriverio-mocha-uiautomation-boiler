@@ -23,6 +23,9 @@ exports.config = {
     capabilities: [{
         maxInstances: 3,
         browserName: 'chrome',
+        'moz:firefoxOptions': {
+            args: ['--window-size=1920,1440'],
+        },
         'goog:chromeOptions': {
             args: ['--disable-infobars', '--window-size=1920,1440'],
         }
