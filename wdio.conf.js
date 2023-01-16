@@ -33,7 +33,9 @@ exports.config = {
     connectionRetryTimeout: 90000,
     connectionRetryCount: 3,
     services: [
-        ZebrunnerService,
+        [
+            ZebrunnerService
+        ],
         // ['selenium-standalone', {
         //     logPath: 'logs',
         //     installArgs: {
