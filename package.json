@@ -29,7 +29,7 @@
     "dotenv": "^8.2.0",
     "shx": "^0.3.2",
     "superagent": "^5.3.1",
-    "javascript-agent-webdriverio": "^1.0.0-alpha"
+    "javascript-agent-wdio": "^1.0.0-alpha"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.5",
