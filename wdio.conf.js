@@ -159,7 +159,7 @@ exports.config = {
         [
             ZebrunnerReporter, 
             {}
-        ]
+        ],
       'spec',
       ['allure', {
         outputDir: 'report/allure-results',
