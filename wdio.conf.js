@@ -27,7 +27,7 @@ exports.config = {
             args: ['--disable-infobars', '--window-size=1920,1440'],
         }
     }],
-    logLevel: process.env.DEBUG ? 'info' : 'warn',
+    logLevel: 'info',
     bail: 0,
     waitforTimeout: elementTimeout,
     connectionRetryTimeout: 90000,
