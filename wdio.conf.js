@@ -1,6 +1,6 @@
 const utilities= require("./support/utils/Utilities");
 const chai = require('chai');
-const {ZebrunnerReporter, ZebrunnerService} = require('javascript-agent-webdriverio');
+const {ZebrunnerReporter, ZebrunnerService} = require('javascript-agent-wdio');
 const allure = require('@wdio/allure-reporter').default;
 require('dotenv').config();
 
